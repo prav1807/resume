@@ -1,34 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
     <SpeedInsights />
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a>
+          <img src="src/assets/profilePicture.png"className="profile-picture" alt="Profile Picture" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Hello, Pravesh here ... <br/>Welcome to my personal portfolio</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <h2>
+          My website is currently under construction. I apologise for any inconvenience
+        </h2>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          However, you can still find my details and experience in my resume. Hope to hear from you soon.
         </p>
+        <button>
+          Download Resume
+        </button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <p>
+        Thank you for you comprehension... See you soon ...
       </p>
     </>
   )
