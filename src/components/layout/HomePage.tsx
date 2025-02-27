@@ -1,10 +1,8 @@
-import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 
-function App() {
+function HomePage() {
   return (
     <>
-    <SpeedInsights />
       <div>
         <a>
           <img src="src/assets/profilePicture.png" className="profile-picture" alt="Profile Picture" />
@@ -29,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default HomePage;
